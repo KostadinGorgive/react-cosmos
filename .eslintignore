@@ -1,0 +1,8 @@
+node_modules
+
+packages/*/dist
+example/cosmos-export
+
+**/__fsmocks__/**
+coverage
+!.jest
