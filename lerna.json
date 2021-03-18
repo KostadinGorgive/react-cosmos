@@ -1,0 +1,15 @@
+{
+  "version": "5.6.4",
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "command": {
+    "publish": {
+      "allowBranch": "main",
+      "ignoreChanges": [
+        "packages/*/README.md",
+        "packages/*/*.js",
+        "packages/*/bin/*.js"
+      ]
+    }
+  }
+}
