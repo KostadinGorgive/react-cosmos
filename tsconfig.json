@@ -1,0 +1,23 @@
+// This config is used in multiple ways:
+// 1. Used by code editors. All TS config, aside from build parameters, should
+//    be placed here.
+// 2. Extended by specific package build configs used to generate TS
+//    declarations. Those configs have an "outDir" defined.
+// 3. Used by global check-types command (which runs in CI)
+{
+  "compilerOptions": {
+    "lib": ["dom", "es2015", "esnext"],
+    "target": "es5",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react",
+    "noEmit": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "exclude": ["node_modules"]
+}
